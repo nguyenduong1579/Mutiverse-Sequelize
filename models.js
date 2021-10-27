@@ -7,9 +7,17 @@ const restaurantModel = {
     type: Sequelize.STRING, // TEXT in sqlite
     allowNull: false,
   },
+  tel: {
+    type: Sequelize.FLOAT, // INTEGER in sqlite
+    allowNull: false,
+  },
+  location: {
+    type: Sequelize.STRING, // TEXT in sqlite
+    allowNull: true,
+  },
   imagelink: {
     type: Sequelize.STRING,
-    allowNull: false,
+    allowNull: true,
   },
 };
 
