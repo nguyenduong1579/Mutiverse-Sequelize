@@ -1,0 +1,16 @@
+{
+  "name": "mutiverse-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.8.0",
+    "sqlite3": "^5.0.2"
+  }
+}
